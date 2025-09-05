@@ -1,0 +1,12 @@
+breakout-scanner/
+├─ backend/
+│  ├─ main.py
+│  ├─ requirements.txt
+│  └─ (optional) render.yaml
+├─ frontend/
+│  ├─ index.html
+│  ├─ package.json
+│  ├─ vite.config.js
+│  ├─ public/ (manifest, sw.js, icons…)
+│  └─ src/ (App.jsx, main.jsx, index.css)
+└─ render.yaml     ← single file that deploys BOTH services
